@@ -1,0 +1,222 @@
+body{
+    font-family:'Open-sans', sans-serif;
+    margin:0;
+    font-size:1rem;
+}
+
+img{
+    width:100%;
+}
+
+.container{
+    margin:auto;
+}
+
+
+/* HEADER */
+#main-header {
+    background: #ef5050;
+    font-size: 0.6rem;
+    color: white;
+
+}
+
+header{
+    background: #ef5050;
+    padding: 0.5rem;
+    font-size: 1rem;
+    color: white;
+}
+
+ #toreviewpage, #backpage {
+     font-size: 1rem;
+ }
+
+/*HERO*/
+#hero {
+    background-image: url(computer5.jpg);
+    background-size: cover;
+    margin-bottom: 2rem;
+    border-bottom: solid grey 0.1rem;
+}
+
+#hero .row{
+    height: 25rem;
+}
+
+#heroreviewpage{
+    height: 20rem;
+    background-image: url(computer1.jpg);
+    background-size: cover;
+    border-bottom: solid grey 0.1rem;
+    font-size: 1rem;
+    align-items: center;
+    border-bottom: none;
+}
+
+#heroreviewpage .row{
+    height: 20rem;
+}
+
+
+.herocontent {
+    background: #333;
+    color:#fff;
+    border-radius: 90px;
+    opacity: 0.8;
+    padding: 1.5rem;
+    font-size:1.3rem;
+
+}
+
+/*MAIN*/
+
+figure {
+display: flex;
+}
+
+.main{
+    background-color: #eeeeee;
+    padding: 2rem;
+    text-align: center;
+}
+
+.links {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#mainlinks {
+    padding-bottom: 2rem;
+}
+
+/*Link to review section*/
+.pagelink {
+    background-color: #eeeeee;
+    color: black;
+    font-size: 1rem;
+    padding-bottom: 2rem;
+}
+
+.commenticon{
+    padding: 1rem;
+}
+
+/*Review Page*/
+
+#addreview{
+    padding-top: 1rem;
+    display: none;
+    text-align: center;
+}
+
+#searchbytopic {
+    display:none;
+    padding: 2rem;
+}
+
+.formsegment {
+    padding: 1rem;
+    width:100%;
+}
+
+#formcontainer {
+    display: flex;
+}
+
+
+
+
+#note {
+    vertical-align: middle;
+    width: 50%;
+    padding: 2rem;
+    height: 4rem;
+}
+
+#resource{
+width:70%;
+}
+
+#topic{
+width:35%;
+}
+
+#review{
+width: 70%;
+height: 3rem;
+}
+
+
+
+
+#reviewpageoption{
+    display:none;
+    color: red;
+    text-align: center;
+    background-color: #eeeeee;
+}
+
+#notelink{
+background-color: #bebebe;
+}
+
+
+/*Tables*/
+table {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 4rem;
+    text-align: center;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/*Footer*/
+
+#main-footer{
+    background: #ef5050;
+    padding: 1.2rem;
+    color: white;
+}
+
+
+/*ICONS*/
+i{
+    padding: 0.5rem;
+}
+
+/*Media Queries*/
+
+@media only screen and (max-device-width:480px){
+    #maintext{
+        font-size: 0.5rem;
+    }
+
+    #mainh2{
+        font-size: 1.6rem;
+    }
+
+    #mainp{
+        font-size:1.3em;
+    }
+
+    #mainh1 {
+        position: relative;
+        right: 4rem;
+    }
+
+    #backpage {
+        position: relative;
+        right: 4rem;
+    }
